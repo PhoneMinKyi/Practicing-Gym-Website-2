@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicing Gym Website 2</title>
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Preload Images -->
+<link rel="preload" as="image" href="./images/hero-banner.png">
+<link rel="preload" as="image" href="./images/hero-circle-one.png">
+<link rel="preload" as="image" href="./images/hero-circle-two.png">
+<link rel="preload" as="image" href="./images/heart-rate.svg">
+<link rel="preload" as="image" href="./images/calories.svg">
+
+
+
+
+</head>
+
+<body>
+    <!-- header Section Starts -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+
+                <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+                <span class="span">Fitlife</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+                </button>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#classes" class="navbar-link" data-nav-link>Classes</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <a href="#" class="btn btn-secondary">Join Now</a>
+
+            <button class="nav-open-btn" aria-label="open-menu" data-nav-toggler>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+
+        </div>
+    </header>
+    <!-- Header Section Ends -->
+
+    <!-- Hero Section starts -->
+     <main>
+        <article>
+            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section style="background-image: url('./images/hero-bg.png');">
+                <div class="hero-content">
+                    <p class="hero-subtitle">
+                        <strong class="strong">The Best</strong>Fitness Club
+                    </p>
+                    <h1 class="h1 hero-title">Work Hard to Get Better Life</h1>
+                    <p class="section-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi incidunt, quidem provident consectetur dignissimos magnam ullam? Commodi repudiandae asperiores magni! 
+                    </p>
+                    <a href="#" class="btn btn-primary">get started</a>
+                </div>
+
+                <div class="hero-banner">
+                    <img src="./images/hero-banner.png" width="660" height="753" class="w-100" alt="hero banner">
+
+                    <img src="./images/hero-circle-one.png" width="666" height="666" aria-hidden="true" class="circle circle-1" alt="">
+
+                    <img src="./images/hero-circle-two.png" width="666" height="666" aria-hidden="true" class="circle circle-2" alt="">
+
+                    <img src="./images/heart-rate.svg" width="255" height="270" alt="" class="abs-img abs-img-1">
+
+                    <img src="./images/calories.svg" width="348" height="224" alt="" class="abs-img abs-img-2">
+
+                </div>
+            </section>
+        </article>
+     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Custom Js Link -->
+    <script src="./js/script.js" defer></script>
+
+    <!-- Ionicon Link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
