@@ -20,13 +20,11 @@
         rel="stylesheet">
 
     <!-- Preload Images -->
-<link rel="preload" as="image" href="./images/hero-banner.png">
-<link rel="preload" as="image" href="./images/hero-circle-one.png">
-<link rel="preload" as="image" href="./images/hero-circle-two.png">
-<link rel="preload" as="image" href="./images/heart-rate.svg">
-<link rel="preload" as="image" href="./images/calories.svg">
-
-
+    <link rel="preload" as="image" href="./images/hero-banner.png">
+    <link rel="preload" as="image" href="./images/hero-circle-one.png">
+    <link rel="preload" as="image" href="./images/hero-circle-two.png">
+    <link rel="preload" as="image" href="./images/heart-rate.svg">
+    <link rel="preload" as="image" href="./images/calories.svg">
 
 
 </head>
@@ -82,16 +80,19 @@
     <!-- Header Section Ends -->
 
     <!-- Hero Section starts -->
-     <main>
+    <main>
         <article>
-            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section style="background-image: url('./images/hero-bg.png');">
+            <!-- Hero Section Starts -->
+            <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+                style="background-image: url('./images/hero-bg.png');">
                 <div class="hero-content">
                     <p class="hero-subtitle">
                         <strong class="strong">The Best</strong>Fitness Club
                     </p>
                     <h1 class="h1 hero-title">Work Hard to Get Better Life</h1>
                     <p class="section-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi incidunt, quidem provident consectetur dignissimos magnam ullam? Commodi repudiandae asperiores magni! 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi incidunt, quidem provident
+                        consectetur dignissimos magnam ullam? Commodi repudiandae asperiores magni!
                     </p>
                     <a href="#" class="btn btn-primary">get started</a>
                 </div>
@@ -99,9 +100,11 @@
                 <div class="hero-banner">
                     <img src="./images/hero-banner.png" width="660" height="753" class="w-100" alt="hero banner">
 
-                    <img src="./images/hero-circle-one.png" width="666" height="666" aria-hidden="true" class="circle circle-1" alt="">
+                    <img src="./images/hero-circle-one.png" width="666" height="666" aria-hidden="true"
+                        class="circle circle-1" alt="">
 
-                    <img src="./images/hero-circle-two.png" width="666" height="666" aria-hidden="true" class="circle circle-2" alt="">
+                    <img src="./images/hero-circle-two.png" width="666" height="666" aria-hidden="true"
+                        class="circle circle-2" alt="">
 
                     <img src="./images/heart-rate.svg" width="255" height="270" alt="" class="abs-img abs-img-1">
 
@@ -109,8 +112,111 @@
 
                 </div>
             </section>
+            <!-- Hero Section Ends -->
+
+            <!-- About Section Starts -->
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+                    <div class="about-banner has-after">
+                        <img src="./images/about-banner.png" width="660" height="648" alt="about banner" loading="lazy"
+                            class="w-100">
+
+                        <img src="./images/about-circle-one.png" width="534" height="666" aria-hidden="true"
+                            class="circle circle-1" alt="">
+
+                        <img src="./images/about-circle-two.png" width="534" height="666" aria-hidden="true"
+                            class="circle circle-2" alt="">
+
+                        <img src="./images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+                            class="abs-img w-100">
+
+                    </div>
+
+                    <div class="about-content">
+                        <p class="section-subtitle">About Us</p>
+                        <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur totam eius libero
+                            inventore quae labore illum! Temporibus quia, exercitationem voluptates debitis, et, ea
+                            animi qui cum voluptatibus quam mollitia.
+                        </p>
+
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tenetur totam eius libero
+                            inventore quae labore illum! Temporibus quia,
+                        </p>
+                    </div>
+
+                    <div class="wrapper">
+                        <div class="about-coach">
+                            <figure class="coach-avatar">
+                                <img src="./images/about-coach.jpg" loading="lazy" alt="Trainer">
+                            </figure>
+
+                            <div>
+                                <h3 class="h3 coach-name">Denis Robinson</h3>
+                                <p class="coach-title">Our Coach</p>
+                            </div>
+
+                        </div>
+                        <a href="#" class="btn btn-primary">Explore More</a>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section Ends -->
+
+            <!-- Video Section Starts -->
+            <section class="section video" aria-label="video">
+                <div class="container">
+                    <div class="video-card has-before has-bg-image"
+                        style="background-image: url(./images/video-banner.jpg);">
+
+                        <h2 class="h2 card-title">Explore Fitness Life</h2>
+                        <button class="play-btn" aria-label="play-video">
+                            <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+                        </button>
+                        <a href="#" class="btn-link has-before">Watch More</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Video Section Ends -->
+
+            <!-- Class Section Starts -->
+            <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+                style="background-image: url('./images/classes-bg.png');">
+                <p class="section-subtitle">Our Classes</p>
+                <h2 class="h2 section-title text-center">Fitness Classes For Every Goal</h2>
+                <ul class="class-list has-scrollbar">
+                    <li class="scrollvar-itme">
+                        <div class="class-card">
+                            <figure class="card-banner img-holder" style="--width: ; --height: ;">
+                                <img src="./images/class-1.jpg" width="416" height="248" loading="lazy"
+                                    alt="Weight Lifting" class="img-cover">
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="title-wrapper">
+                                    <img src="./images/class-icon-1.png" width="52" height="52" aria-hidden="true"
+                                        alt="" class="title-icon">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Weight lifting</a>
+                                    </h3>
+                                </div>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, natus?
+
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
+
         </article>
-     </main>
+    </main>
 
 
 
